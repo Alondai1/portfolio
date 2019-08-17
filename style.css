@@ -1,0 +1,160 @@
+html {
+    height: 100%;
+    overflow: hidden
+}
+
+body {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'roboto', serif;
+    background-color: #1c1d1f
+   
+    
+}
+
+
+
+header {
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 20vw 50px 25vw;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+}
+
+header p {
+    color: rgb(241, 233, 233);
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 30px;
+    animation-delay: 1.5s;
+   letter-spacing: 0.1em;
+}
+
+
+
+header h1 {
+    margin-top: -100px;
+    -webkit-text-stroke-width: 0.07px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 0px 0px 2px #000000;
+    animation-delay: 0.5s;
+    letter-spacing: 0.1em;
+
+
+
+
+}
+
+header .description {
+    letter-spacing: 0;
+    text-shadow: 0px 0px 5px #000000;
+    color: rgb(255, 255, 255);
+    animation-delay: 2.5s;
+    letter-spacing: 0.1em;
+    line-height: 31px;
+    font-size: 16px;
+
+
+
+}
+header * {
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 1rem 0;
+}
+
+
+header, header:before {
+    background: 50% 50% / cover;
+}
+
+header::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background-image: url(bg16.jpg);
+    
+    /* background-image: url(photo-1552783618-a639ce635a8e.jpg); */
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+}
+
+
+
+.card {
+    margin: 5%;
+    float: left;
+    background-color: rgb(220, 224, 255);
+    color: black;
+        min-width: 300px;
+    max-width: 384px;
+   
+}
+
+
+.card-img-top {
+    height: 200px;
+}
+
+.cards {
+    align-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+}
+
+.list-group-item{
+    transition: 0.3s;
+}
+
+.list-group-item:hover {
+    background-color: rgba(255, 251, 0, 0.411);
+}
+
+.bg-light {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.card-body {
+    background-color: #fff;
+}
+
+
+.footer {
+    text-align: center;
+    color: rgb(143, 142, 142);
+}
+
+.more {
+    margin: 0
+}
+
+.scroll , .scrolldown-btn{
+    color: white;
+    font-size: 4rem !important;
+}
+
+
+
+    
+      
+     
+ 
