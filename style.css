@@ -126,7 +126,7 @@ header::before {
 }
 
 .list-group-item:hover {
-    background-color: rgba(255, 251, 0, 0.411);
+    background-color: rgb(229, 226, 226);
 }
 
 .bg-light {
